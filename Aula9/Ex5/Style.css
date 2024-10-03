@@ -1,0 +1,53 @@
+
+p
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+#div1
+{
+    width: 99%;
+    padding-left: 1%;
+    height: 20%;
+    background-color: rgb(165, 165, 165);
+    margin: 0.5%;
+}
+#div2
+{
+    width: 99%;
+    padding-left: 1%;
+    height: 20%;
+    background-color: rgb(165, 165, 165);
+    margin: 0.5%;
+}
+#div3
+{
+    width: 99%;
+    padding-left: 1%;
+    height: 20%;
+    background-color: rgb(165, 165, 165);
+    margin: 0.5%;
+}
+#bloco1
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    margin: 1%;
+    background-color: rgb(201, 201, 201);
+    border-color: black;
+    border: 2px;
+}
+#bloco2
+{
+    text-align: left;
+    padding-left: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 1%;
+    background-color: rgb(201, 201, 201);
+    border-color: black;
+    border: 2px;
+}

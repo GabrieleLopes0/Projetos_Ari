@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and Drop</title>
+    <script src="Script.js"> </script>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <p>Arraste a imagem para dentro do quadrado</p>
+    <div id="divcentral">
+            <div id="div1" ondragover="allowDrop(event)" ondrop="drop(event)">
+                <img id="drag1" src="img/gato.webp" draggable="true" ondragstart="drag(event)">
+            </div>
+            <div id="div2" ondragover="allowDrop(event)" ondrop="drop(event)">
+
+            </div>
+            <div id="div3" ondragover="allowDrop(event)" ondrop="drop(event)">
+                
+            </div>
+            <div id="div4" ondragover="allowDrop(event)" ondrop="drop(event)">
+
+            </div>
+    </div>
+</body>
+</html>

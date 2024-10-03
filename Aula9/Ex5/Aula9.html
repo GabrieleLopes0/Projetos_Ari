@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and Drop</title>
+    <script src="Script.js"> </script>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <h2>Prateleira de Produtos</h2>
+        <div id="bloco1">
+            <div id="div1" draggable="true" ondragstart="drag(event)">
+                <p id="prod1"> Produto 1 - R$ 10</p>
+            </div>
+            <div id="div2" draggable="true" ondragstart="drag(event)">
+                <p id="prod2" > Produto 2 - R$ 20</p>
+            </div>
+            <div id="div3" draggable="true" ondragstart="drag(event)">
+                <p id="prod3" > Produto 3 - R$ 30</p>
+            </div>
+        </div>
+    <h2>Carrinho de Compras</h2>
+        <div id="bloco2" ondragover="allowDrop(event)" ondrop="drop(event)">
+            <p id="prod3"> Arraste o produto até aqui</p>
+        </div>
+</body>
+</html>

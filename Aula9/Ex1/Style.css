@@ -1,0 +1,39 @@
+img
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+}
+p
+{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+div
+{
+    width: max-content;
+    height: 200px;
+}
+#div1
+{
+    display: flex;
+    width: 250px;
+    height: 250px;
+    background-color: rgb(156, 205, 248);
+    border-color: aqua;
+    border-radius: 20px;
+    border: 2px;
+    justify-content: center;
+    margin: auto;
+}
+#divcentral
+{
+    display: flex;
+    width: 75%;
+    height: 400px;
+    justify-content: center;
+    margin: auto;
+}

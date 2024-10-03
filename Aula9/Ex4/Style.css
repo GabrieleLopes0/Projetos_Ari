@@ -1,0 +1,136 @@
+img
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+}
+p
+{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+#div1
+{
+    display: flex;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(156, 205, 248);
+    border-color: aqua;
+    border-radius: 20px;
+    border: 2px;
+    justify-content: center;
+    margin: 5%;
+}
+#div2
+{
+    display: flex;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(214, 156, 248);
+    border-color: rgb(234, 0, 255);
+    border-radius: 20px;
+    border: 2px;
+    justify-content: center;
+    margin: 5%;
+}
+#div3
+{
+    display: flex;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(190, 248, 156);
+    border-color: rgb(115, 255, 0);
+    border-radius: 20px;
+    border: 2px;
+    justify-content: center;
+    margin: 5%;
+}
+#div4
+{
+    display: flex;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(242, 248, 156);
+    border-color: rgb(238, 255, 0);
+    border-radius: 20px;
+    border: 2px;
+    justify-content: center;
+    margin: 5%;
+}
+#div5
+{
+    display: flex;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(156, 205, 248);
+    border-color: aqua;
+    border-radius: 20px;
+    border: 2px;
+    justify-content: center;
+    margin: 5%;
+}
+#div6
+{
+    display: flex;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(214, 156, 248);
+    border-color: rgb(234, 0, 255);
+    border-radius: 20px;
+    border: 2px;
+    justify-content: center;
+    margin: 5%;
+}
+#div7
+{
+    display: flex;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(190, 248, 156);
+    border-color: rgb(115, 255, 0);
+    border-radius: 20px;
+    border: 2px;
+    justify-content: center;
+    margin: 5%;
+}
+#div8
+{
+    display: flex;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(242, 248, 156);
+    border-color: rgb(238, 255, 0);
+    border-radius: 20px;
+    border: 2px;
+    justify-content: center;
+    margin: 5%;
+}
+#divcentral
+{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    margin: auto;
+    background-color: rgb(120, 129, 255);
+}
+#bloco1
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 25%;
+    justify-content: center;
+    margin: 5%;
+    background-color: rgb(248, 181, 136);
+}
+#bloco2
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 25%;
+    justify-content: center;
+    margin: 5%;
+    background-color: rgb(248, 181, 136);
+}
