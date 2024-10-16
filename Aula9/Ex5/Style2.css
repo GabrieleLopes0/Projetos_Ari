@@ -1,0 +1,79 @@
+body 
+{
+    background-color: rgb(252, 241, 243);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#carrinho 
+{
+    background-color: #f3fffd;
+    border-radius: 20px;
+    border: 10px dotted #a8ffef;
+    padding: 1%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.produto
+{
+    background-color: rgb(227, 255, 204);
+    border-radius: 10px;
+    border: 2.5px dashed rgb(184, 255, 127);
+    padding: 1%;
+    margin: 0.5%;
+    cursor: grab;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#produtos
+{
+    background-color: #f3fffd;
+    border-radius: 20px;
+    border: 10px dotted #a8ffef;
+    padding: 1%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+.carrinho-item 
+{
+    background-color: rgb(255, 255, 141);
+    border-radius: 20px;
+    border: 2.5px dashed rgb(184, 255, 127);
+    padding: 1%;
+    margin: 0.5%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    cursor: grab;
+}
+
+.produto:hover, .item:hover 
+{
+    background-color: rgb(255, 255, 141);
+    transform: 0,4s;
+}
+
+h2 {
+    font-size: 30px;
+    color: #000000;
+}
+a 
+{
+    font-size: 20px;
+    text-decoration: none;
+    color: #01002b;
+}
+img
+{
+    border-radius: 10px;
+    width: 90%;
+    height: 90%;
+    margin: 10%;
+}

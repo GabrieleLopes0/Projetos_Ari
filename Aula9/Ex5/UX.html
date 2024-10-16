@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="Style2.css">
+      <script src="Script.js"></script>
+    <title>Drag e Drop</title>
+  </head>
+  <body>
+    <h2>Preateleira de Produtos</h2>
+
+    <div
+      ondragover="allowDrop(event)"
+      ondrop="dropRemove(event)"
+      id="produtos"
+    >
+      <div
+        class="produto"
+        id="div1"
+        draggable="true"
+        ondragstart="drag(event)"
+        data-preco="10"
+      >
+      <img src="img/chocolate.png">
+        Milka - 10,00
+      </div>
+
+      <div
+        class="produto"
+        id="div2"
+        draggable="true"
+        ondragstart="drag(event)"
+        data-preco="20"
+      >
+      <img src="img/caixadebombom.png">
+        Nestle - 20,00
+      </div>
+
+      <div
+        class="produto"
+        id="div3"
+        draggable="true"
+        ondragstart="drag(event)"
+        data-preco="30"
+      >
+      <img src="img/caixacara.png">
+        Ferrero - 30,00
+      </div>
+    </div>
+
+    <h2>Carrinho de Compras</h2>
+    <div id="carrinho" ondragover="allowDrop(event)" ondrop="drop(event)">
+      <p>Arraste o produto escolhido aqui</p>
+    </div>
+
+    <h3>Total a ser pago: R$ <span id="total">0,00</span></h3>
+    <a href="Index.html">Voltar</a>
+  </body>
+</html>

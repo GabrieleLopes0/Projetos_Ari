@@ -1,0 +1,53 @@
+body 
+{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#carrinho 
+{
+    background-color: #f0f0f0;
+    border-radius: 2px;
+    padding: 1%;
+}
+
+.produto
+{
+    background-color: silver;
+    border-radius: 2px;
+    padding: 0.4%;
+    margin: 0.5%;
+    cursor: grab;
+}
+#produtos
+{
+    background-color: #f0f0f0;
+    border-radius: 2px;
+    padding: 1%;
+}
+.carrinho-item 
+{
+    background-color: rgb(255, 255, 141);
+    border-radius: 2px;
+    padding: 0.4%;
+    margin: 0.5%;
+    cursor: grab;
+}
+
+.produto:hover, .item:hover 
+{
+    background-color: rgb(255, 255, 141);
+    transform: 0,4s;
+}
+
+h2 {
+    font-size: 30px;
+    color: #000000;
+}
+a 
+{
+    font-size: 20px;
+    text-decoration: none;
+    color: #01002b;
+}
