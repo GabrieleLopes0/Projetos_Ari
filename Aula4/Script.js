@@ -2,12 +2,12 @@ function calculateSquare()
 {
     const inputElement = document.getElementById("inputNumber");
     const inputNumber = Number(inputElement.value);
-    Worker.postMessage(inputNumber);
+    myWorker.postMessage(inputNumber);
 }
 
-const Worker = new Worker('Worker.js');
+const myWorker = new myWorker('myWorker.js');
 
-Worker.addEventListener('message', function(event)
+myWorker.addEventListener('message', function(event)
 {
     const square = event.data;
     const resultElement = document.getElementById('result');
